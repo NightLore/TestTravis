@@ -4,6 +4,7 @@ script: ant build
 addons:
   sonarcloud:
     organization: "nightlore-github"
-    token: SONAR_TOKEN
+    token: 
+      secure: SONAR_TOKEN
 script:
   sonar-scanner
