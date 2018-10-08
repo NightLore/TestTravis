@@ -6,6 +6,6 @@ addons:
   sonarcloud:
     organization: "nightlore-github"
     token: 
-      secure: SONAR_TOKEN
+      secure: TOKEN
 script:
   - sonar-scanner
